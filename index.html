@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Biblioteca</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Gerenciador de Livros</h1>
+        <button onclick="bibliotecaController.adicionarLivro()">Adicionar Livro</button>
+        <button onclick="bibliotecaController.listarLivros()">Listar Livros</button>
+        <button class="botao-remover" onclick="bibliotecaController.removerLivro()">Remover Livro</button>
+        <ul id="listaLivros"></ul>
+    </div>
+
+    <script src="../repositories/bibliotecaRepository.js"></script>
+    <script src="../services/bibliotecaService.js"></script>
+    <script src="../controllers/bibliotecaController.js"></script>
+</body>
+</html>
