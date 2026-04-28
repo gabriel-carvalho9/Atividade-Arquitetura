@@ -15,11 +15,12 @@ body {
 }
 
 button {
+    color: white;
     padding: 10px 15px;
     margin: 5px;
     cursor: pointer;
     border: 1px solid #ccc;
-    background-color: #0073ff;
+    background-color: #0040ff;
     border-radius: 5px;
 }
 
